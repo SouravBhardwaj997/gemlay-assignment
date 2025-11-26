@@ -1,8 +1,10 @@
 import { CarouselSection } from "@/components/home/CarouselSection";
+import { CategorySection } from "@/components/home/CategorySection";
 import { CollectionSection } from "@/components/home/CollectionSection";
 import { FeatureSection } from "@/components/home/FeatureSection";
 import { HeroSection } from "@/components/home/HeroSection";
 import { ProductSection } from "@/components/home/ProductSection";
+import { ShopByGenderSection } from "@/components/home/ShopByGenderSection";
 
 export default function Home() {
   return (
@@ -13,6 +15,8 @@ export default function Home() {
       <CollectionSection />
       <ProductSection />
       <ProductSection />
+      <CategorySection />
+      <ShopByGenderSection />
     </div>
   );
 }
