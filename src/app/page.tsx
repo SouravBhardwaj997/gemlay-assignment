@@ -4,6 +4,7 @@ import { CollectionSection } from "@/components/home/CollectionSection";
 import { FeatureSection } from "@/components/home/FeatureSection";
 import { HeroSection } from "@/components/home/HeroSection";
 import { ProductSection } from "@/components/home/ProductSection";
+import { ReviewSection } from "@/components/home/ReviewSection";
 import { ShopByGenderSection } from "@/components/home/ShopByGenderSection";
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       <ProductSection />
       <CategorySection />
       <ShopByGenderSection />
+      <ReviewSection />
     </div>
   );
 }
