@@ -213,3 +213,20 @@ export const Line = ({ className }: { className?: string }) => {
     </svg>
   );
 };
+
+export const PlayIcon = () => {
+  return (
+    <svg
+      width="8"
+      height="11"
+      viewBox="0 0 8 11"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M7.25071 5.18369L0.0177693 10.3922L-1.63885e-05 -5.72777e-05L7.25071 5.18369Z"
+        fill="#007A64"
+      />
+    </svg>
+  );
+};

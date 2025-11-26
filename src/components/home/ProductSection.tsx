@@ -1,6 +1,6 @@
 import { ProductCard } from "../cards/ProductCard";
 import { TitleSubtitle } from "../elements/TitleSubtitle";
-import { Line } from "../icons";
+import { TrapezoidButton } from "../elements/TrapezoidButton";
 
 export const ProductSection = () => {
   return (
@@ -17,6 +17,7 @@ export const ProductSection = () => {
           <ProductCard />
           <ProductCard />
         </div>
+        <TrapezoidButton />
       </div>
     </div>
   );
