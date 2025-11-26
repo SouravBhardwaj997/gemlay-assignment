@@ -12,6 +12,7 @@ export default function Home() {
       <FeatureSection />
       <CollectionSection />
       <ProductSection />
+      <ProductSection />
     </div>
   );
 }
