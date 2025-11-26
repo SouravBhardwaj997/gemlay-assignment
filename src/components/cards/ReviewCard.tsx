@@ -5,7 +5,7 @@ import Image from "next/image";
 export const ReviewCard = () => {
   return (
     <div className="px-8 py-10 flex flex-col gap-16 bg-[#EFEFEF87] border border-[#EFEFEF] rounded-xl relative">
-      <div className="triangle bg-white absolute w-10 h-6 rotate-90 -left-2" />
+      <div className="triangle bg-white absolute w-10 h-6 rotate-90 -left-3" />
       <div className="flex items-center justify-between">
         <div className="flex flex-col gap-2">
           <p className="text-pencil font-bold">Himesh</p>
