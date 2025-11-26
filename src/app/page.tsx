@@ -3,6 +3,7 @@ import { CategorySection } from "@/components/home/CategorySection";
 import { CollectionSection } from "@/components/home/CollectionSection";
 import { FeatureSection } from "@/components/home/FeatureSection";
 import { HeroSection } from "@/components/home/HeroSection";
+import { NewsletterSection } from "@/components/home/NewsletterSection";
 import { ProductSection } from "@/components/home/ProductSection";
 import { ReviewSection } from "@/components/home/ReviewSection";
 import { ShopByGenderSection } from "@/components/home/ShopByGenderSection";
@@ -21,6 +22,7 @@ export default function Home() {
       <ShopByGenderSection />
       <ReviewSection />
       <StayUpdatedSection />
+      <NewsletterSection />
     </div>
   );
 }
