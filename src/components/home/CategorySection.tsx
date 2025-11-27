@@ -1,3 +1,4 @@
+import { categoryData } from "@/constants";
 import { ImageCard } from "../cards/ImageCard";
 import { TitleSubtitle } from "../elements/TitleSubtitle";
 
@@ -10,12 +11,9 @@ export const CategorySection = () => {
           subtitle="DISCOVER YOUR WORLD OF JEWELLERY"
         />
         <div className="grid grid-cols-4 gap-10">
-          <ImageCard className="col-span-2" />
-          <ImageCard className="col-span-2" />
-          <ImageCard />
-          <ImageCard />
-          <ImageCard />
-          <ImageCard />
+          {categoryData.map((item, i) => (
+            <ImageCard {...item} key={i} />
+          ))}
         </div>
       </div>
     </div>

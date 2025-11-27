@@ -14,7 +14,7 @@ export const ImageCard = ({
         width={450}
         src={imageSrc}
         alt="image"
-        className="w-full"
+        className="w-full rounded-xl"
       />
     </div>
   );

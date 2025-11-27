@@ -41,3 +41,60 @@ export const collectionData = [
     imageSrc: "/images/collection/collection6.png",
   },
 ];
+
+export const categoryData = [
+  {
+    imageSrc: "/images/category/category1.png",
+    className: "col-span-2",
+  },
+  {
+    className: "col-span-2",
+    imageSrc: "/images/category/category2.png",
+  },
+  {
+    imageSrc: "/images/category/category3.png",
+  },
+  {
+    imageSrc: "/images/category/category4.png",
+  },
+  {
+    imageSrc: "/images/category/category5.png",
+  },
+  {
+    imageSrc: "/images/category/category6.png",
+  },
+];
+
+export const genderCategoryData = [
+  {
+    imageSrc: "/images/gender/women.png",
+  },
+  {
+    imageSrc: "/images/gender/men.png",
+  },
+  {
+    imageSrc: "/images/gender/kids.png",
+  },
+  {
+    imageSrc: "/images/gender/unisex.png",
+  },
+];
+
+export const updatesCardData = [
+  {
+    title: "Ratan Tata-backed BlueStone valuation tops $410Min latest round.",
+    imageSrc: "/images/company/company1.png",
+  },
+  {
+    title: "Ratan Tata-backed BlueStone valuation tops $410Min latest round.",
+    imageSrc: "/images/company/company2.png",
+  },
+  {
+    title: "Ratan Tata-backed BlueStone valuation tops $410Min latest round.",
+    imageSrc: "/images/company/company3.png",
+  },
+  {
+    title: "Ratan Tata-backed BlueStone valuation tops $410Min latest round.",
+    imageSrc: "/images/company/company1.png",
+  },
+];

@@ -1,3 +1,4 @@
+import { updatesCardData } from "@/constants";
 import { UpdatesCard } from "../cards/UpdatesCard";
 import { TitleSubtitle } from "../elements/TitleSubtitle";
 
@@ -10,10 +11,9 @@ export const StayUpdatedSection = () => {
           subtitle="KNOW ABOUT WHAT OTHERS THINK"
         />
         <div className="grid grid-cols-4 gap-10">
-          <UpdatesCard />
-          <UpdatesCard />
-          <UpdatesCard />
-          <UpdatesCard />
+          {updatesCardData.map((item, i) => (
+            <UpdatesCard key={i} {...item} />
+          ))}
         </div>
       </div>
     </div>
