@@ -1,3 +1,4 @@
+import { genderCategoryData } from "@/constants";
 import { ImageCard } from "../cards/ImageCard";
 import { TitleSubtitle } from "../elements/TitleSubtitle";
 
@@ -10,10 +11,9 @@ export const ShopByGenderSection = () => {
           subtitle="DISCOVER YOUR WORLD OF JEWELLERY"
         />
         <div className="grid grid-cols-4 gap-10">
-          <ImageCard />
-          <ImageCard />
-          <ImageCard />
-          <ImageCard />
+          {genderCategoryData.map((item, i) => (
+            <ImageCard key={i} imageSrc={item.imageSrc} />
+          ))}
         </div>
       </div>
     </div>
