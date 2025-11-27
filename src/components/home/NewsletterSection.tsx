@@ -1,3 +1,5 @@
+import { FemaleIcon, MaleIcon } from "../icons";
+
 export const NewsletterSection = () => {
   return (
     <div className="w-full bg-linear-to-right from-[#F8F8F8] to-[#D9FDF7]">
@@ -13,11 +15,29 @@ export const NewsletterSection = () => {
         </div>
         <div className="flex flex-col gap-3">
           <div className="flex gap-2">
-            <input
-              className="border w-96 rounded-xl px-4 py-2"
-              placeholder="Email Address"
-            />
-            <button className="bg-linear-to-r from-primary-dark to-primary   rounded-xl px-8 py-3 text-sm text-white">
+            <div className="flex flex-col gap-6">
+              <input
+                className="border w-96 rounded-xl px-4 py-2"
+                placeholder="Email Address"
+              />
+              <div className="flex justify-center gap-4 items-center">
+                <div className="flex gap-6">
+                  <div className="flex gap-2">
+                    <p>Female</p>
+                    <FemaleIcon />
+                  </div>
+                  <input type="radio" name="gender" value="female" />
+                </div>
+                <div className="flex gap-6">
+                  <div className="flex gap-2">
+                    <p>Male</p>
+                    <MaleIcon />
+                  </div>
+                  <input type="radio" name="gender" value="male" />
+                </div>
+              </div>
+            </div>
+            <button className="bg-linear-to-r from-primary-dark to-primary   rounded-xl px-8 py-3 h-fit text-sm text-white">
               SUBMIT
             </button>
           </div>
