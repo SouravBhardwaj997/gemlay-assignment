@@ -98,3 +98,13 @@ export const updatesCardData = [
     imageSrc: "/images/company/company1.png",
   },
 ];
+
+export const FAQsData = [
+  { title: "Buy Gold Jewellery Online in India" },
+  {
+    title: "Variety of options",
+  },
+  { title: "Pay as per your convenience" },
+  { title: "Customize as you like" },
+  { title: "Crowd-free Buying Diamond Jewellery Online in India" },
+];
