@@ -10,6 +10,7 @@
   --color-foreground: var(--foreground);
   --color-primary: #009278;
   --color-primary-dark: #012433;
+  --color-primary-light: #eafffb80;
   --color-grayish: #efefef;
   --color-whitish: #fafafa;
   --color-pencil: #302f2f;
