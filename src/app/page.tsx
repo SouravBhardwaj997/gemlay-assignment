@@ -7,6 +7,7 @@ import { NewsletterSection } from "@/components/home/NewsletterSection";
 import { ProductSection } from "@/components/home/ProductSection";
 import { ReviewSection } from "@/components/home/ReviewSection";
 import { ShopByGenderSection } from "@/components/home/ShopByGenderSection";
+import { SocialLinksSection } from "@/components/home/SocialLinksSection";
 import { StayUpdatedSection } from "@/components/home/StayUpdatedSection";
 
 export default function Home() {
@@ -23,6 +24,7 @@ export default function Home() {
       <ReviewSection />
       <StayUpdatedSection />
       <NewsletterSection />
+      <SocialLinksSection />
     </div>
   );
 }
