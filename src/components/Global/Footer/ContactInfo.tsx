@@ -1,4 +1,10 @@
-import { FacebookIcon, RateIcon } from "@/components/icons";
+import {
+  FacebookIcon,
+  LocationIcon,
+  MailIcon,
+  RateIcon,
+  WhatsAppIcon,
+} from "@/components/icons";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -15,14 +21,20 @@ export const ContactInfo = () => {
       <ul className="flex flex-col gap-2">
         <li>
           <Link href="/" className="flex gap-2 items-center">
-            <RateIcon />
-            About
+            <WhatsAppIcon />
+            99888-98866
           </Link>
         </li>
         <li>
           <Link href="/" className="flex gap-2 items-center">
-            <RateIcon />
-            About
+            <MailIcon />
+            info@garnetlanee.com
+          </Link>
+        </li>
+        <li>
+          <Link href="/" className="flex gap-2 items-center">
+            <LocationIcon />
+            Sco.19,Sector 82 JLPL Mohali Airport Road,160055.
           </Link>
         </li>
       </ul>

@@ -1,3 +1,30 @@
+import {
+  AssuranceIcon,
+  BlogIcon,
+  CertificateIcon,
+  DiamondIcon,
+  DigitalGoldIcon,
+  FinanceOptionIcon,
+  GemStoneIcon,
+  GiftIcon,
+  GoldIcon,
+  InquiryIcon,
+  JewelleryIcon,
+  LifeTimeReplaceIcon,
+  PaymentOptionsIcon,
+  ProcessIcon,
+  RateIcon,
+  ReturnIcon,
+  ReturnPolicyIcon,
+  ReviewIcon,
+  ShippingIcon,
+  StoryIcon,
+  TeamIcon,
+  TermsIcon,
+  VisionIcon,
+  WhyIcon,
+} from "@/components/icons";
+
 export const carouselData = [
   { title: "Ring", imageSrc: "/images/carousel/ring.png" },
   { title: "Earrings", imageSrc: "/images/carousel/earings.png" },
@@ -107,4 +134,113 @@ export const FAQsData = [
   { title: "Pay as per your convenience" },
   { title: "Customize as you like" },
   { title: "Crowd-free Buying Diamond Jewellery Online in India" },
+];
+
+export const FooterLinksData = [
+  {
+    title: "Our Services",
+    links: [
+      { name: "Gold Rates", icon: <RateIcon />, link: "/" },
+      { name: "DIGITAL GOLD", icon: <DigitalGoldIcon />, link: "/" },
+      {
+        name: "VARIOUS PAYMENT METHOD",
+        icon: <PaymentOptionsIcon />,
+        link: "/",
+      },
+      { name: "FINANCING OPTIONS", icon: <FinanceOptionIcon />, link: "/" },
+      { name: "GARNET LANEE ASSURANCE", icon: <AssuranceIcon />, link: "/" },
+      { name: "FRANCHISE ENQUIRY", icon: <InquiryIcon />, link: "/" },
+    ],
+  },
+  {
+    title: "OUR POLICIES",
+    links: [
+      { name: "15-DAY RETURNS", icon: <ReturnIcon />, link: "/" },
+      { name: "FREE SHIPPING", icon: <ShippingIcon />, link: "/" },
+      {
+        name: "LIFETIME EXCHANGE POLICY",
+        icon: <LifeTimeReplaceIcon />,
+        link: "/",
+      },
+      {
+        name: "RETURN AND REFUND POLICY",
+        icon: <ReturnPolicyIcon />,
+        link: "/",
+      },
+      {
+        name: "TERMS & CONDITIONS ON OFFERS",
+        icon: <TermsIcon />,
+        link: "/",
+      },
+    ],
+  },
+  {
+    title: "JEWELLERY KNOWLEDGE",
+    links: [
+      { name: "GOLD GUIDE ", icon: <GoldIcon />, link: "/" },
+      { name: "DIAMOND GUIDE ", icon: <DiamondIcon />, link: "/" },
+      {
+        name: "JEWELLERY GUIDE",
+        icon: <JewelleryIcon />,
+        link: "/",
+      },
+      {
+        name: "SOLITIARE DIAMOND GUIDE",
+        icon: <DiamondIcon />,
+        link: "/",
+      },
+      {
+        name: "GEMSTONE GUIDE ",
+        icon: <GemStoneIcon />,
+        link: "/",
+      },
+      {
+        name: "CERTIFICATION GUIDE ",
+        icon: <CertificateIcon />,
+        link: "/",
+      },
+      {
+        name: "JEWELLERY GIFTING",
+        icon: <GiftIcon />,
+        link: "/",
+      },
+    ],
+  },
+  {
+    title: "ABOUT US",
+    links: [
+      { name: "OUR VISION ", icon: <VisionIcon />, link: "/" },
+      { name: "WHY GARNET ", icon: <WhyIcon />, link: "/" },
+      {
+        name: "BLOG",
+        icon: <BlogIcon />,
+        link: "/",
+      },
+      {
+        name: "OUR STORY",
+        icon: <StoryIcon />,
+        link: "/",
+      },
+      {
+        name: "OUR PROCESS ",
+        icon: <ProcessIcon />,
+        link: "/",
+      },
+      {
+        name: "OUR TEAM ",
+        icon: <TeamIcon />,
+        link: "/",
+      },
+      {
+        name: "REVIEWS AND RATINGS",
+        icon: <ReviewIcon />,
+        link: "/",
+      },
+      {
+        name: "PRESS RELEASE",
+        icon: <TeamIcon />,
+        link: "/",
+      },
+    ],
+  },
 ];
