@@ -1,0 +1,12 @@
+export { CarouselSection } from "./CarouselSection";
+export { CategorySection } from "./CategorySection";
+export { CollectionSection } from "./CollectionSection";
+export { FAQSection } from "./FAQSection";
+export { FeatureSection } from "./FeatureSection";
+export { HeroSection } from "./HeroSection";
+export { NewsletterSection } from "./NewsletterSection";
+export { ProductSection } from "./ProductSection";
+export { ReviewSection } from "./ReviewSection";
+export { ShopByGenderSection } from "./ShopByGenderSection";
+export { SocialLinksSection } from "./SocialLinksSection";
+export { StayUpdatedSection } from "./StayUpdatedSection";
