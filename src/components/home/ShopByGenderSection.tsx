@@ -10,7 +10,7 @@ export const ShopByGenderSection = () => {
           title="SHOP BY GENDER"
           subtitle="DISCOVER YOUR WORLD OF JEWELLERY"
         />
-        <div className="grid grid-cols-4 gap-10">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-10">
           {genderCategoryData.map((item, i) => (
             <ImageCard key={i} imageSrc={item.imageSrc} />
           ))}

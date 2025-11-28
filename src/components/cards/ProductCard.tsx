@@ -15,8 +15,10 @@ export const ProductCard = () => {
       <div className="flex justify-between py-4 px-3 gap-4">
         <div className="flex flex-col gap-2  ">
           <div className="flex gap-2">
-            <p className="text-xl font-semibold">₹22,323</p>
-            <p className="text-lg font-semibold line-through">₹22,323</p>
+            <p className="text-lg md:text-xl font-semibold">₹22,323</p>
+            <p className="text-sm md:text-lg font-semibold line-through">
+              ₹22,323
+            </p>
           </div>
           <p className="text-pencil line-clamp-1 text-sm">
             Yemeraly Wings Diamond...

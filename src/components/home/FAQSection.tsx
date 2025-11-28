@@ -4,8 +4,8 @@ import { PlayIcon } from "../icons";
 export const FAQSection = () => {
   return (
     <div className="w-full bg-whitish">
-      <div className="w-11/12 mx-auto py-24 flex  gap-10 ">
-        <div className="flex flex-col w-[30%]">
+      <div className="w-11/12 mx-auto py-24 flex gap-10 ">
+        <div className="flex flex-col w-full md:w-[30%]">
           {FAQsData.map((faq, i) => {
             return (
               <div
@@ -20,7 +20,7 @@ export const FAQSection = () => {
             );
           })}
         </div>
-        <div className="flex gap-5 flex-col w-[70%]">
+        <div className=" gap-5 flex-col md:flex hidden w-[70%]">
           <p className="font-semibold">Buy Gold Jewellery Online in India</p>
           <div className="flex flex-col gap-6  text-sm">
             <p>

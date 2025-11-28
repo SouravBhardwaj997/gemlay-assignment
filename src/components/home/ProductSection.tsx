@@ -10,7 +10,7 @@ export const ProductSection = () => {
           title="Trending Products"
           subtitle="DISCOVER YOUR WORLD OF JEWELLERY"
         />
-        <div className="grid grid-cols-3 xl:grid-cols-5 gap-10 xl:gap-6 ">
+        <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-5 gap-6 md:gap-10 xl:gap-6 ">
           <ProductCard />
           <ProductCard />
           <ProductCard />
