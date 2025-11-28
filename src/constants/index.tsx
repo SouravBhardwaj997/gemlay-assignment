@@ -75,7 +75,7 @@ export const categoryData = [
     className: "col-span-2",
   },
   {
-    className: "col-span-2",
+    className: "col-span-2 order-last lg:order-2",
     imageSrc: "/images/category/category2.png",
   },
   {
@@ -86,9 +86,11 @@ export const categoryData = [
   },
   {
     imageSrc: "/images/category/category5.png",
+    className: "hidden md:block",
   },
   {
     imageSrc: "/images/category/category6.png",
+    className: "hidden md:block",
   },
 ];
 
