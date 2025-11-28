@@ -50,23 +50,6 @@ export const ContactInfo = () => {
           <FacebookIcon />
         </div>
       </div>
-      <div className="flex flex-col gap-3">
-        <p className="text-sm">Download Our Application</p>
-        <div className="flex gap-2">
-          <Image
-            src={"/images/play-store.png"}
-            alt="Play Store"
-            width={100}
-            height={5}
-          />
-          <Image
-            src={"/images/app-store.png"}
-            alt="Play Store"
-            width={100}
-            height={5}
-          />
-        </div>
-      </div>
     </div>
   );
 };
