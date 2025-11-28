@@ -2,13 +2,13 @@ import { FemaleIcon, MaleIcon } from "../icons";
 
 export const NewsletterSection = () => {
   return (
-    <div className="w-full bg-linear-to-right from-[#F8F8F8] to-[#D9FDF7]">
-      <div className="w-11/12 mx-auto py-10 flex md:flex-row flex-col justify-between">
+    <div className="w-full bg-linear-to-right from-[#F8F8F8] to-[#FFD58829]">
+      <div className="w-11/12 mx-auto py-10 md:gap-0 gap-4 flex md:flex-row flex-col justify-between">
         <div className="flex flex-col gap-3">
-          <p className="uppercase font-semibold text-primary-dark text-xl">
+          <p className="uppercase font-semibold text-primary-dark text-base md:text-xl">
             SIGN UP TO BE A GARNET LANEE INSIDER
           </p>
-          <p className="text-xs text-pencil">
+          <p className="text-xs text-pencil md:block hidden">
             Get Promotions, inspirations and the latest news about brands and
             jewellery items directly in your inbox
           </p>
@@ -17,7 +17,7 @@ export const NewsletterSection = () => {
           <div className="flex gap-2">
             <div className="flex flex-col gap-6">
               <input
-                className="border w-52 md:w-96 rounded-xl px-4 py-2"
+                className="border w-64 md:w-96 rounded-xl px-4 py-2"
                 placeholder="Email Address"
               />
               <div className="flex justify-center gap-4 items-center">

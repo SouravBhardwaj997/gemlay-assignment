@@ -2,9 +2,11 @@ import { ProductCard } from "../cards/ProductCard";
 import { TitleSubtitle } from "../elements/TitleSubtitle";
 import { TrapezoidButton } from "../elements/TrapezoidButton";
 
-export const ProductSection = () => {
+export const ProductSection = ({ className }: { className?: string }) => {
   return (
-    <div className="w-full bg-whitish">
+    <div
+      className={`w-full bg-linear-to-b from-[#F8F8F896] to-[#F8F8F887] ${className}`}
+    >
       <div className="w-11/12 mx-auto py-14 flex flex-col gap-14 items-center justify-center">
         <TitleSubtitle
           title="Trending Products"
@@ -17,7 +19,7 @@ export const ProductSection = () => {
           <ProductCard />
           <ProductCard />
         </div>
-        <TrapezoidButton />
+        <TrapezoidButton className="bg-white" />
       </div>
     </div>
   );

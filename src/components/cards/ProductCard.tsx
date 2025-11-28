@@ -26,7 +26,7 @@ export const ProductCard = () => {
           <p className="text-primary font-bold text-xs py-2">
             10 % on off Making Charges
           </p>
-          <p className="text-pencil font-bold text-xs flex gap-1">
+          <p className="text-pencil font-bold text-xs  items-center flex gap-1">
             <TwoCircle />
             <span>View Similar</span>
           </p>
@@ -43,7 +43,7 @@ export const ProductCard = () => {
         </p>
         <ShinyHeart />
       </div>
-      <button className="bg-linear-to-r to-primary  text-white from-primary-dark px-8 py-2 rounded-tl-2xl rounded-br-2xl text-[13px] absolute bottom-0 right-0 -skew-x-12 cursor-pointer">
+      <button className="bg-linear-to-r to-primary  text-white from-primary-dark px-4 md:px-8 py-2 rounded-tl-2xl rounded-br-2xl text-[13px] absolute bottom-0 right-0 -skew-x-12 cursor-pointer">
         Buy Now
       </button>
     </div>

@@ -1,9 +1,10 @@
 import { ReviewCard } from "../cards/ReviewCard";
 import { TitleSubtitle } from "../elements/TitleSubtitle";
+import { TrapezoidButton } from "../elements/TrapezoidButton";
 
 export const ReviewSection = () => {
   return (
-    <div className="w-full bg-linear-to-b from-[#F1FFFD96] to-[#F8F8F887]">
+    <div className="w-full bg-linear-to-b from-[#FFD58800] to-[#FFFFFF87]">
       <div className="w-11/12 mx-auto py-16 flex-col flex gap-14">
         <TitleSubtitle
           title="CUSTOMER REVIEWS"
@@ -14,6 +15,9 @@ export const ReviewSection = () => {
           <ReviewCard />
           <ReviewCard />
         </div>
+      </div>
+      <div className="flex justify-center items-center">
+        <TrapezoidButton className="bg-white" />
       </div>
     </div>
   );

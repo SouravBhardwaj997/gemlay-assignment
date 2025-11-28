@@ -21,7 +21,7 @@ export default function Home() {
       <FeatureSection />
       <CollectionSection />
       <ProductSection />
-      <ProductSection />
+      <ProductSection className="from-[#F3FDFB80]! " />
       <CategorySection />
       <ShopByGenderSection />
       <ReviewSection />

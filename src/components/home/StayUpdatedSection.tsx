@@ -1,10 +1,11 @@
 import { updatesCardData } from "@/constants";
 import { UpdatesCard } from "../cards/UpdatesCard";
 import { TitleSubtitle } from "../elements/TitleSubtitle";
+import { TrapezoidButton } from "../elements/TrapezoidButton";
 
 export const StayUpdatedSection = () => {
   return (
-    <div className="w-full bg-linear-to-b from-[#F1FFFD96] to-[#F8F8F887]">
+    <div className="w-full bg-linear-to-b from-[#F8F8F896] to-[#F8F8F887]">
       <div className="w-11/12 mx-auto py-16 flex-col flex gap-14">
         <TitleSubtitle
           title="STAY UPDATE WITH US"
@@ -15,6 +16,9 @@ export const StayUpdatedSection = () => {
             <UpdatesCard key={i} {...item} />
           ))}
         </div>
+      </div>
+      <div className="flex justify-center items-center">
+        <TrapezoidButton className="bg-white" />
       </div>
     </div>
   );

@@ -28,6 +28,10 @@ body {
   clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
 }
 
+.reversed-trapezoid {
+  clip-path: polygon(0 0, 100% 0, 80% 100%, 20% 100%);
+}
+
 .triangle {
   clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
 }

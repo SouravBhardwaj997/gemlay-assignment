@@ -1,6 +1,7 @@
 import { categoryData } from "@/constants";
 import { ImageCard } from "../cards/ImageCard";
 import { TitleSubtitle } from "../elements/TitleSubtitle";
+import { TrapezoidButton } from "../elements/TrapezoidButton";
 
 export const CategorySection = () => {
   return (
@@ -15,6 +16,9 @@ export const CategorySection = () => {
             <ImageCard {...item} key={i} />
           ))}
         </div>
+      </div>
+      <div className="flex justify-center items-center">
+        <TrapezoidButton className="bg-white" />
       </div>
     </div>
   );
