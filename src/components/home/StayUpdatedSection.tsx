@@ -10,7 +10,7 @@ export const StayUpdatedSection = () => {
           title="STAY UPDATE WITH US"
           subtitle="KNOW ABOUT WHAT OTHERS THINK"
         />
-        <div className="grid grid-cols-4 gap-10">
+        <div className="grid grid-cols-2 xl:grid-cols-4 gap-10">
           {updatesCardData.map((item, i) => (
             <UpdatesCard key={i} {...item} />
           ))}
