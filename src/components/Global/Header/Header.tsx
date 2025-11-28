@@ -9,6 +9,7 @@ import {
   BagIcon,
   HeartIcon,
   QrIcon,
+  PersonIcon,
 } from "@/components/icons";
 
 export const Header = () => {
@@ -21,7 +22,7 @@ export const Header = () => {
         </div>
         <div>
           <input
-            className="border-2 border-primary-dark w-96 rounded-3xl px-4 py-2"
+            className="border-2 border-primary-dark w-72 ml-2 xl:w-80 rounded-3xl px-4 py-2"
             placeholder="Search Products..."
           />
         </div>
@@ -35,6 +36,15 @@ export const Header = () => {
             text="verify Report"
             className="border-none"
           />
+          <div className="flex flex-col justify-center gap-2">
+            <div className="flex just-center items-center gap-2">
+              <div className="flex justify-center items-center p-2 bg-gray-100 rounded-full">
+                <PersonIcon />
+              </div>
+              <p className="text-xs xl:block hidden">Hi, Ashish Sood </p>
+            </div>
+            <div className="w-3/4 rounded-2xl h-1 bg-primary-dark mx-auto xl:block hidden" />
+          </div>
         </div>
       </div>
       <BottomBar />

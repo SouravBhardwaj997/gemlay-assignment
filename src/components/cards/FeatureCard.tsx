@@ -18,7 +18,7 @@ export const FeatureCard = ({
       } from-grayish to-white flex justify-center rounded-[250px] items-center gap-3 md:gap-10 md:ps-14 h-36 md:h-56`}
     >
       <p
-        className={`font-medium text-wrap flex flex-wrap text-pencil text-xl md:text-4xl uppercase ${
+        className={`font-medium text-wrap flex flex-wrap text-pencil text-xl md:text-3xl lg:text-4xl uppercase ${
           direction === "right" ? "pl-10" : "pr-10"
         }`}
       >
