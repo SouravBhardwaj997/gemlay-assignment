@@ -30,7 +30,11 @@ export const Header = () => {
           <IconText Icon={<OfferIcon />} text="offer" />
           <IconText Icon={<HeartIcon />} text="wishlist" />
           <IconText Icon={<BagIcon />} text="Cart" />
-          <IconText Icon={<QrIcon />} text="verify Report" />
+          <IconText
+            Icon={<QrIcon />}
+            text="verify Report"
+            className="border-none"
+          />
         </div>
       </div>
       <BottomBar />
