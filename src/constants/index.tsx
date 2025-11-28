@@ -75,7 +75,7 @@ export const categoryData = [
     className: "col-span-2",
   },
   {
-    className: "col-span-2 order-last lg:order-2",
+    className: "col-span-2 order-last md:order-first",
     imageSrc: "/images/category/category2.png",
   },
   {
