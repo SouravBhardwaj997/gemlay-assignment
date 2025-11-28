@@ -2,7 +2,6 @@ import {
   FacebookIcon,
   LocationIcon,
   MailIcon,
-  RateIcon,
   WhatsAppIcon,
 } from "@/components/icons";
 import Image from "next/image";
@@ -33,7 +32,9 @@ export const ContactInfo = () => {
         </li>
         <li>
           <Link href="/" className="flex gap-2 items-center">
-            <LocationIcon />
+            <span className="self-start pt-1">
+              <LocationIcon />
+            </span>
             Sco.19,Sector 82 JLPL Mohali Airport Road,160055.
           </Link>
         </li>
