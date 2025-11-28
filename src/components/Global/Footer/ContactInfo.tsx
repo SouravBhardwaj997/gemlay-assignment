@@ -9,7 +9,7 @@ import Link from "next/link";
 
 export const ContactInfo = () => {
   return (
-    <div className="flex flex-col gap-5 pl-10">
+    <div className="flex flex-col gap-5 md:pl-10">
       <div className="flex flex-col gap-2">
         <p className="font-bold text-lg">Get In Touch</p>
         <p className="text-sm">

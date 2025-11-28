@@ -8,7 +8,7 @@ export const Footer = () => {
   return (
     <div className="flex flex-col bg-primary/15">
       <div className="w-full bg-primary/15 pb-4">
-        <div className="w-11/12 mx-auto py-10 grid grid-cols-1 md:grid-cols-3 xl:grid-cols-5 place-content-between place-items-start gap-y-10">
+        <div className="w-11/12 mx-auto py-10 grid grid-cols-1 md:grid-cols-3 xl:grid-cols-5 place-content-between place-items-start gap-y-3 md:gap-y-10">
           {FooterLinksData.map((el, i) => (
             <FooterLinks {...el} key={i} />
           ))}

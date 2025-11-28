@@ -12,7 +12,7 @@ export const FooterLinks = ({
   }[];
 }) => {
   return (
-    <div className="flex w-full justify-between pl-10">
+    <div className="flex w-full justify-between md:pl-10">
       <div className="flex flex-col gap-5">
         <p className="font-bold text-base">{title}</p>
         <ul className="flex flex-col gap-2">
@@ -29,7 +29,7 @@ export const FooterLinks = ({
           ))}
         </ul>
       </div>
-      <div className="h-64 w-px bg-gray-400 self-center ml-4" />
+      <div className="h-64 w-px bg-gray-400 self-center ml-4 md:block hidden" />
     </div>
   );
 };
