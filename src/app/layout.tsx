@@ -5,7 +5,7 @@ import { Header } from "@/components/global/Header/Header";
 import { Footer } from "@/components/global/Footer/Footer";
 import { ChatButton } from "@/components/elements/ChatButton";
 import { SpinButton } from "@/components/elements/WheelButton";
-import { MobileNavbar } from "@/components/global/Header/MobileNavbar";
+import MobileNavbar from "@/components/global/Header/MobileNavbar";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
