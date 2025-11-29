@@ -1,19 +1,13 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { Mulish } from "next/font/google";
 import { Header } from "@/components/global/Header/Header";
 import { Footer } from "@/components/global/Footer/Footer";
 import { ChatButton } from "@/components/elements/ChatButton";
 import { SpinButton } from "@/components/elements/WheelButton";
-import MobileNavbar from "@/components/global/Header/MobileNavbar";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const mulish = Mulish({
+  variable: "--font-mulish",
   subsets: ["latin"],
 });
 
@@ -29,11 +23,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {/* <Header /> */}
-        <MobileNavbar />
+      <body className={` ${mulish.variable} antialiased`}>
+        <Header />
         {children}
         <SpinButton />
         <ChatButton />

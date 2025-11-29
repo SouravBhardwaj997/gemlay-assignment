@@ -1,3 +1,4 @@
+"use client";
 import { IconText } from "@/components/elements/IconText";
 
 import Image from "next/image";
@@ -11,9 +12,15 @@ import {
   QrIcon,
   PersonIcon,
 } from "@/components/icons";
+import { useMediaQuery } from "react-responsive";
+import MobileNavbar from "./MobileNavbar";
 
 export const Header = () => {
-  return (
+  const isMobile = useMediaQuery({ query: "(max-width: 800px)" });
+
+  return isMobile ? (
+    <MobileNavbar />
+  ) : (
     <div className="flex flex-col">
       <TopBar />
       <div className="w-11/12 flex justify-between items-center mx-auto py-4">
