@@ -23,7 +23,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={` ${mulish.variable} antialiased`}>
+      <body className={` ${mulish.variable} font-mulish antialiased`}>
         <Header />
         {children}
         <SpinButton />

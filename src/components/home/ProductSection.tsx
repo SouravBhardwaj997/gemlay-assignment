@@ -19,6 +19,8 @@ export const ProductSection = ({ className }: { className?: string }) => {
           <ProductCard />
           <ProductCard />
         </div>
+      </div>
+      <div className="flex justify-center items-center">
         <TrapezoidButton className="bg-white" />
       </div>
     </div>
